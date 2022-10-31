@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: meta-check-commit-msg
+        name: Check the commit messages to ensure that they are in the right format
+        entry: Meta/pre-commit-hooks/check-commit-msg.sh
+        stages: [ commit-msg ]
+        language: system

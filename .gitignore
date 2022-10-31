@@ -1,0 +1,7 @@
+Meta/iso_root
+*.iso
+*.o
+*.d
+Kernel/ultra_protocol.h
+Meta/hyper/*
+!Meta/hyper/Makefile
