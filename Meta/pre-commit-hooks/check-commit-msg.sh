@@ -1,4 +1,4 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 
 # the file containing the commit message is passed as the first argument
 commit_file="$1"
